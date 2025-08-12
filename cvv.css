@@ -1,0 +1,22 @@
+h1{
+    font-family: 'algerian', Courier, monospace;
+    font-style: normal;
+    font-display: fallback;
+    font-display: ;
+}
+button{
+    background-color: azure;
+top: 10px;
+right:10000px;
+
+ 
+}
+body{
+    background-color: black;
+    background-image: -moz-radial-gradient(white 1px, transaparent 1px);
+    background-size: 20px 20px;
+    color:white;
+    margin:0;
+    
+
+}
