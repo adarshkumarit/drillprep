@@ -72,3 +72,33 @@ body {
     75%  { transform: translateX(-25%); }
     100% { transform: translateX(1); }
 }
+header {
+    display: flex;
+    justify-content: space-between; /* pushes title left, login right */
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav button {
+    background: linear-gradient(135deg, #00bfff, #007acc);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    background: linear-gradient(135deg, #009acd, #006699);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
