@@ -110,12 +110,13 @@ nav button:hover {
 
 .text-box{
     max-width: 400px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(250, 246, 246, 111);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0,4);
-    color: #fff;
+    color: #150202;
     font-size:16px;
+    font-style: ;
     position: absolute;
     top: 50%;
     left: 5%;
